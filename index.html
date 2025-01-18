@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+     <!-- custom css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header design -->
+     <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>            
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+     </header>
+
+     <!-- home section design -->
+      <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sehreena Shahid</h1>
+            <h3>And I'm a <span class="neon-text">FRONTEND WEB DEVELOPER</span></h3>
+            <p>I am a young web development enthusiast with a passion for creating dynamic websites and landing pages. I specialize in HTML and CSS, and I'm constantly expanding my skills to bring creative digital experiences to life. My goal is to build a successful career as a front-end developer, crafting user-friendly designs that stand out.  </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+      </section>
+      <!-- about section design -->
+       <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>I'm a passionate front-end developer with a keen interest in crafting visually appealing and functional websites.I started my journey in web development to combine my love for creativity with technology.My focus is on building user-centric designs using HTML,CSS, and JavaScript and I'm constantly learning new techniques to improve my skills.When I'm not coding, I enjoy exploring the latest web trends and finding new ways to make the web a better place for users. I aspire to work with innovative teams,creating solutions that make a difference.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+       </section>
+
+       <!-- services section design -->
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+            <div class="services-container">
+                <div class="service-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Development</h3>
+                    <p>"I design and build responsive websites and landing pages using HTML and CSS. With a foces on slean design and functionality, I can creae visually appealing layouts tailored to your needs. I also enhance websites using AI tools for efficient edits and improvements."  </p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--portfolio section design-->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Project</span></h2>
+
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="lp.jpg" alt="Landing Page 1" style="width: 100%; max-width: 520px; height: auto; display: block; margin: 0 auto;">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Landing Page 1</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="lanpad.jpg" alt="Landing Page 2" style="width: 100%; max-width: 520px; height: auto; display: block; margin: 0 auto;">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Landing Page 2</p>
+                        <a href="#"><i class='bx bx-link-external' ></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--contact section design-->
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="https://formspree.io/f/xyzyqjzo" method="POST" enctype="application/x-www-form-urlencoded">
+                <!-- Name Field -->
+                 <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name" required>
+                <!-- Email Field -->
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="email" required>
+                <!-- Message Field -->
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Enter your message" autocomplete="off" required></textarea>
+                <!-- Redirect to Thank You page -->
+                <input type="hidden" name="_redirect" value="https://sehreena73.github.io/thankyou.html">
+                <!-- Submit Buttom -->
+                 <button type="submit">Send Message</button>
+              </form>
+    
+    
+        </div>
+
+
+        <!-- footer design -->
+         <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by Sehreena Shahid | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+            </div>
+         </footer>
+
+
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js02.0.12"></script>
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+        <!-- custom js -->
+         <script src="js/script.js"></script>
+</body>
+</head>
+
